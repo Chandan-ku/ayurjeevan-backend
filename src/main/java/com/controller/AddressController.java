@@ -1,0 +1,28 @@
+package com.controller;
+
+import com.entity.Address;
+import com.service.copy.*;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+
+@RestController
+@RequestMapping("/api/addresses")
+public class AddressController {
+
+    private final AddressService addressService;
+
+    public AddressController(AddressService addressService) {
+        this.addressService = addressService;
+    }
+
+    @PostMapping
+    public Address addAddress(@RequestBody Address address) {
+        return addressService.saveAddress(address);
+    }
+
+    @GetMapping
+    public List<Address> getAddresses() {
+        return addressService.getAllAddresses();
+    }
+}
