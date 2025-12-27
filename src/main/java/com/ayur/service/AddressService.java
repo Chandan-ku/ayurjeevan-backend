@@ -1,9 +1,9 @@
-package com.service.copy;
+package com.ayur.service;
 
 
 import java.util.List;
 
-import com.entity.Address;
+import com.ayur.entity.Address;
 
 public interface AddressService {
     Address saveAddress(Address address);

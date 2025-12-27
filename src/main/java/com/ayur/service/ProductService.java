@@ -1,7 +1,8 @@
-package com.service.copy;
+package com.ayur.service;
 
-import com.entity.Product;
-import com.repo.ProductRepository;
+import com.ayur.entity.Product;
+import com.ayur.repo.ProductRepository;
+
 import org.springframework.stereotype.Service;
 import java.util.List;
 

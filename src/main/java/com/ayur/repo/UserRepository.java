@@ -1,9 +1,11 @@
-package com.repo;
+package com.ayur.repo;
 
 
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.ayur.entity.User;
+
 import java.util.Optional;
-import com.entity.User;
 
 public interface UserRepository extends JpaRepository<User, Long> {
     Optional<User> findByEmail(String email);

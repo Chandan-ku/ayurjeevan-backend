@@ -1,11 +1,11 @@
-package com.service.copy;
+package com.ayur.service;
 
 
 
 import org.springframework.stereotype.Service;
 
-import com.entity.Address;
-import com.repo.AddressRepository;
+import com.ayur.entity.Address;
+import com.ayur.repo.AddressRepository;
 
 import java.util.List;
 

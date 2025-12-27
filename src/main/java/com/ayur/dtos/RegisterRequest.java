@@ -1,4 +1,4 @@
-package com.dtos;
+package com.ayur.dtos;
 import lombok.Data;
 
 @Data

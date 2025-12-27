@@ -1,8 +1,9 @@
-package com.controller;
+package com.ayur.controller;
 
 
-import com.dtos.*;
-import com.service.copy.UserService;
+import com.ayur.dtos.*;
+import com.ayur.service.UserService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

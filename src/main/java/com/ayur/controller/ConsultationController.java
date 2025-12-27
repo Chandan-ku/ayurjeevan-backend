@@ -1,4 +1,4 @@
-package com.controller;
+package com.ayur.controller;
 
 import java.util.List;
 
@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.entity.Consultation;
-import com.repo.ConsultationRepository;
+import com.ayur.entity.Consultation;
+import com.ayur.repo.ConsultationRepository;
 
 @RestController
 @RequestMapping("/api/consultation")

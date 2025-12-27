@@ -1,7 +1,8 @@
-package com.controller;
+package com.ayur.controller;
 
-import com.entity.Address;
-import com.service.copy.*;
+import com.ayur.entity.Address;
+import com.ayur.service.*;
+
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

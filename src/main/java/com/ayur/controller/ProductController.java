@@ -1,4 +1,4 @@
-package com.controller;
+package com.ayur.controller;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,8 +6,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import com.entity.Product;
-import com.repo.ProductRepository;
+import com.ayur.entity.Product;
+import com.ayur.repo.ProductRepository;
 
 @RestController
 @RequestMapping("/api/products")

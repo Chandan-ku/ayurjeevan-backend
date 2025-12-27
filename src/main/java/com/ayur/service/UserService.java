@@ -1,8 +1,9 @@
-package com.service.copy;
+package com.ayur.service;
 
-import com.dtos.*;
-import com.entity.User;
-import com.repo.UserRepository;
+import com.ayur.dtos.*;
+import com.ayur.entity.User;
+import com.ayur.repo.UserRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;

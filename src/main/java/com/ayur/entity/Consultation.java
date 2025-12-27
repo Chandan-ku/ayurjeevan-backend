@@ -1,4 +1,4 @@
-package com.entity;
+package com.ayur.entity;
 
 import java.time.LocalDateTime;
 
